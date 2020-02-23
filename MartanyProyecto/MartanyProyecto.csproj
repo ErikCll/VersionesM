@@ -58,13 +58,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap\css\AdminLTE.min.css" />
     <Content Include="Bootstrap\css\bootstrap-grid.css.map" />
     <Content Include="Bootstrap\css\bootstrap-grid.min.css.map" />
     <Content Include="Bootstrap\css\bootstrap-reboot.css.map" />
     <Content Include="Bootstrap\css\bootstrap-reboot.min.css.map" />
     <Content Include="Bootstrap\css\bootstrap.css.map" />
     <Content Include="Bootstrap\css\bootstrap.min.css.map" />
-    <Content Include="Inicio.aspx" />
+    <Content Include="Bootstrap\css\bootstrap3.4.1.min.css" />
+    <Content Include="img\Tomorrowland.jpg" />
+    <Content Include="Producto.aspx" />
     <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -89,12 +92,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
-    <Compile Include="Inicio.aspx.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="Producto.aspx.cs">
+      <DependentUpon>Producto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Inicio.aspx.designer.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="Producto.aspx.designer.cs">
+      <DependentUpon>Producto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
