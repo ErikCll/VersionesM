@@ -66,8 +66,6 @@
     <Content Include="Bootstrap\css\bootstrap.css.map" />
     <Content Include="Bootstrap\css\bootstrap.min.css.map" />
     <Content Include="Bootstrap\css\bootstrap3.4.1.min.css" />
-    <Content Include="img\FondoMartany.PNG" />
-    <Content Include="img\ProductoMartany.PNG" />
     <Content Include="img\Tomorrowland.jpg" />
     <Content Include="Producto.aspx" />
     <Content Include="Site.Master" />
